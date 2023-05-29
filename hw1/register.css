@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    background-color: #463C2D;
+}
+
+@font-face{
+    font-family: 'Belweb';
+    src: url('fonts/BELWEB.TTF') format('truetype');
+}
+
+.sectionbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uther{
+    filter: drop-shadow(12px 12px 8px black);
+    position: absolute;
+    margin-right: 55%;
+}
+
+.box{
+    box-shadow: 12px 12px 8px black;
+    margin: 100px;
+    max-width: 40%;
+    background-color: #FFC31F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+@media (max-width: 1280px){
+    .uther{
+        margin-right: 60%;
+    }
+    .box{
+        margin-right: 0;
+    }
+}
+
+.riga{
+    font-family: 'Belweb', sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:space-between;
+}
+.rigap{
+    display: flex;
+}
+
+.inputp{
+    margin-left: 83px;
+}
+
+.input{
+    margin-right: 20px;
+}
+
+.inpute{
+    margin-right: 20px;
+}
+
+.inputcp{
+    margin-left: 3px;
+}
+
+.showpassword{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.showcpassword{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.showpassword:hover{
+    cursor: pointer;
+}
+
+.showcpassword:hover{
+    cursor: pointer;
+}
+
+.errore span{
+    font-size: 13px;
+    color: red;
+    font-style: italic;
+}
+
+.errore_piccolo span{
+    font-size: 11px;
+    color: red;
+    font-style: italic;
+}
+
+.iscriviti{
+    font-family: 'Belweb', sans-serif;
+    background-color: #463C2D;
+    color: #FFC31F;
+    font-size: 20px;
+    width: 100%;
+    height: 12%;
+    margin-top: 10px;
+}
+
+.iscriviti:hover{
+    cursor: pointer;
+}
+
+.formtitle{
+    font-family: 'Belweb', sans-serif;
+    text-align: center;
+    color: #463C2D;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.backtologin{
+    color: white;
+    text-decoration: none;
+}
+
+.scritta{
+    margin-bottom: 20px;
+}

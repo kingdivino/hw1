@@ -1,0 +1,245 @@
+
+#navbar{
+  height: 50px;
+  background-color: #463C2D;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navitem{
+  border: solid 2px black;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  height: 20px;
+  text-decoration: none;
+}
+
+.navitem:hover{
+  cursor: pointer;
+  background-color:#e5b549;
+}
+
+#carta{
+  color: white;
+  font-size: 20px;
+  font-family: 'Belweb', sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  padding: 5px;
+  border: 3px solid;
+  border-radius: 30px;
+  border-top-color: #ffeda4;
+  border-bottom-color: #d28b04;
+  border-left-color: #e5b549;
+  border-right-color: #e5b549;
+}
+
+#carta:focus{
+  outline: none;
+}
+
+#form{
+  position: relative;
+  left: -4%;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.divform{
+  position: absolute;
+  top: -112px;
+  left: 28%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  background-image: url('./immagini/centerform.png');
+  background-repeat: repeat-x;
+  width: 80%;
+  max-width: 600px;
+}
+
+.leftform{
+  background-image: url('./immagini/leftform.png');
+  width: 64px;
+  height: 56px;
+  left: -64px;
+  position: absolute;
+}
+
+.rightform{
+  background-image: url('./immagini/rightform.png');
+  width: 64px;
+  background-repeat: no-repeat;
+  height: 56px;
+  right: -64px;
+  position: absolute;
+}
+
+#submit{
+  position: relative;
+  background: rgb(210,139,4);
+  background: linear-gradient(0deg, rgba(210,139,4,1) 0%, rgba(255,237,164,1) 100%);
+  font-size: 20px;
+  border-radius: 30px;
+  height: 150%;
+  width: 20%;
+  right: -7%;
+  margin-left: -40px;
+  z-index: 1;
+}
+
+#submit:hover{
+  cursor: pointer;
+}
+
+/*--------------------------------------------------------*/
+
+@font-face{
+  font-family: 'Belweb';
+  src: url('fonts/BELWEB.TTF') format('truetype');
+}
+
+body{
+    background-color: #463C2D;
+    margin: 0;
+    font-family: 'Belweb', sans-serif;
+}
+
+#intestazione{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 140px;
+  background-color: #ffeda4;
+}
+
+#intestazione img{
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.sfondobox{
+  min-height:100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-image: url('immagini/sfondo.jpg');
+  background-size: contain;
+  border-width: 141px;
+  border-style: solid;
+  border-image: url('immagini/Bordo.png') 139 121 141 166 / 1 / 0 round;
+}
+
+
+.sfondo{
+  width: 90%;
+}
+
+#center-view{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title{
+  margin: 0;
+  font-size: 48px;
+  font-family: 'Belweb', sans-serif;
+  color: #FFC31F;
+  text-shadow: 6px 6px 6px #463C2D;
+}
+
+#center-view .carta{
+  margin: 10px;
+  padding: 5px;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#center-view .carta:hover{
+  cursor: pointer;
+  background-color: crimson;
+}
+
+#center-view img{
+  max-width: 100%;
+  filter: drop-shadow(12px 12px 8px black);
+}
+
+#center-view img.icon{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+#center-view img:hover{
+  transform: scale(1.25);
+  transition: transform 0.5s;
+}
+
+#center-view .caption{
+  margin-top: 25px;
+  text-align: center;
+  border: 1px solid slategray;
+  background-color: aliceblue;
+}
+
+.id{
+  display: none;
+}
+
+#modal-view{
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-view img{
+  max-width: 100%;
+  max-height: 100%;
+}
+#modal-view.hidden{
+  display: none;
+}
+
+.no-scroll{
+  overflow: hidden;
+}
+
+
+/*----------------*/
+
+#center-title{
+  color: #ffeda4;
+  text-shadow: 6px 6px 4px black;
+  font-size: 30px;
+}
+
+.sfondobox2{
+  min-height:70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-image: url('immagini/sfondo.jpg');
+  background-size: contain;
+  border-width: 141px;
+  border-style: solid;
+  border-image: url('immagini/Bordo.png') 139 121 141 166 / 1 / 0 round;
+}

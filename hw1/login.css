@@ -1,0 +1,98 @@
+#errore span{
+    color: red;
+    font-style: italic;
+}
+
+.username{
+    position: relative;
+    z-index: +1;
+}
+
+.password{
+    position: relative;
+    z-index: +1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.campopassword{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@font-face{
+    font-family: 'Belweb';
+    src: url('fonts/BELWEB.TTF') format('truetype');
+}
+
+body{
+    margin: 0;
+    background-color: #326181;
+}
+.sectionbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lich{
+    filter: drop-shadow(12px 12px 8px black);
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+.box{
+    font-family: 'Belweb', sans-serif;
+    box-shadow: 12px 12px 8px black;
+    margin: 100px;
+    max-width: 40%;
+    min-height: 400px;
+    background-color: #78a9c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.accedi{
+    position: relative;
+    z-index: +1;
+    font-size: 20px;
+    font-family: 'Belweb', sans-serif;
+    background-color: #326181;
+    width: 100%;
+    color: #78a9c3;
+}
+
+.accedi:hover{
+    cursor: pointer;
+}
+
+.registrati{
+    position: relative;
+    z-index: +1;
+    color: white;
+    text-decoration: none;
+}
+
+.registrati:hover{
+    cursor: pointer;
+}
+
+.scritta{
+    margin-bottom: 20px;
+}
+
+.showpassword:hover{
+    cursor: pointer;
+}
+
+.showpassword{
+    position: relative;
+    z-index: +1;
+    max-width: 20px;
+    max-height: 20px;
+}

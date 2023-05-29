@@ -1,0 +1,109 @@
+
+#navbar{
+height: 50px;
+background-color: #463C2D;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.navitem{
+border: solid 2px black;
+border-radius: 10px;
+color: rgb(255, 255, 255);
+padding: 5px;
+height: 20px;
+text-decoration: none;
+}
+
+.navitem:hover{
+cursor: pointer;
+background-color: #FFC31F;
+}
+
+
+
+/*--------------------------------------------------------*/
+
+@font-face{
+font-family: 'Belweb';
+src: url('fonts/BELWEB.TTF') format('truetype');
+}
+
+body{
+    background-color: #463C2D;
+    margin: 0;
+    font-family: 'Belweb', sans-serif;
+}
+
+#intestazione{
+align-items: center;
+justify-content: center;
+display: flex;
+height: 140px;
+background-color: #ffeda4;
+}
+
+#intestazione img{
+max-width: 100px;
+max-height: 100px;
+}
+
+.sfondobox{
+min-height:100%;
+display: flex;
+justify-content: center;
+position: relative;
+background-image: url('immagini/sfondo.jpg');
+background-size: contain;
+border-width: 141px;
+border-style: solid;
+border-image: url('immagini/Bordo.png') 139 121 141 166 / 1 / 0 round;
+}
+
+.sfondo{
+width: 90%;
+}
+
+#center-view{
+display: flex;
+flex-wrap: wrap;
+}
+
+.title{
+margin: 0;
+font-size: 48px;
+font-family: 'Belweb', sans-serif;
+color: #FFC31F;
+text-shadow: 6px 6px 6px #463C2D;
+}
+
+.archetipo{
+    display: flex;
+    width: 240px;
+    height: 200px;
+    margin: 2%;
+}
+
+.hilight{
+    margin-left: -250px;
+    margin-bottom: -10px;
+    opacity: 0;
+}
+
+.hilight:hover{
+    cursor: pointer;
+    opacity: 100%;
+    transition: all 0.2s ease-out 0s;
+}
+
+.nomearc{
+    color: #FFC31F;
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 80px;
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+}
+
